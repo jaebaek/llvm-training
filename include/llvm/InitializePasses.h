@@ -302,6 +302,8 @@ void initializeSjLjEHPreparePass(PassRegistry&);
 void initializeDemandedBitsPass(PassRegistry&);
 void initializeFuncletLayoutPass(PassRegistry &);
 void initializeLoopLoadEliminationPass(PassRegistry&);
+
+void initializeFunctionBlockCountPass(PassRegistry&);
 }
 
 #endif

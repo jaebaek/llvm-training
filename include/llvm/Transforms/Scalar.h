@@ -486,6 +486,8 @@ FunctionPass *createLoopDistributePass();
 //
 FunctionPass *createLoopLoadEliminationPass();
 
+FunctionPass *createFunctionBlockCountPass();
+
 } // End llvm namespace
 
 #endif

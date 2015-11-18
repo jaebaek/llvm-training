@@ -189,6 +189,8 @@ namespace {
       X.add(nullptr, 0, llvm::AAMDNodes()); // for -print-alias-sets
       (void) llvm::AreStatisticsEnabled();
       (void) llvm::sys::RunningOnValgrind();
+
+      (void) llvm::createFunctionBlockCountPass();
     }
   } ForcePassLinking; // Force link by creating a global definition.
 }
